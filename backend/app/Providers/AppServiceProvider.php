@@ -24,7 +24,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        Resource::withoutWrapping();
+        // Resource::withoutWrapping();
 
         \Illuminate\Database\Eloquent\Model::$snakeAttributes = false;
     }
